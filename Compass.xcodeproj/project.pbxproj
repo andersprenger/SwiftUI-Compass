@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		713E5BE626E159A80059D1BB /* CompassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713E5BE526E159A80059D1BB /* CompassApp.swift */; };
-		713E5BE826E159A80059D1BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713E5BE726E159A80059D1BB /* ContentView.swift */; };
+		713E5BE826E159A80059D1BB /* CompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713E5BE726E159A80059D1BB /* CompassView.swift */; };
 		713E5BEA26E159AA0059D1BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713E5BE926E159AA0059D1BB /* Assets.xcassets */; };
 		713E5BED26E159AA0059D1BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713E5BEC26E159AA0059D1BB /* Preview Assets.xcassets */; };
+		713E5BF526E15B9E0059D1BB /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713E5BF426E15B9E0059D1BB /* Marker.swift */; };
+		713E5BF726E15D150059D1BB /* CompassMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713E5BF626E15D150059D1BB /* CompassMarkerView.swift */; };
+		713E5BF926E16EC50059D1BB /* CompassLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713E5BF826E16EC50059D1BB /* CompassLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		713E5BE226E159A80059D1BB /* Compass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Compass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		713E5BE526E159A80059D1BB /* CompassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassApp.swift; sourceTree = "<group>"; };
-		713E5BE726E159A80059D1BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		713E5BE726E159A80059D1BB /* CompassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassView.swift; sourceTree = "<group>"; };
 		713E5BE926E159AA0059D1BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		713E5BEC26E159AA0059D1BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		713E5BEE26E159AA0059D1BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		713E5BF426E15B9E0059D1BB /* Marker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
+		713E5BF626E15D150059D1BB /* CompassMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassMarkerView.swift; sourceTree = "<group>"; };
+		713E5BF826E16EC50059D1BB /* CompassLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				713E5BE526E159A80059D1BB /* CompassApp.swift */,
-				713E5BE726E159A80059D1BB /* ContentView.swift */,
+				713E5BF826E16EC50059D1BB /* CompassLogic.swift */,
+				713E5BE726E159A80059D1BB /* CompassView.swift */,
+				713E5BF426E15B9E0059D1BB /* Marker.swift */,
+				713E5BF626E15D150059D1BB /* CompassMarkerView.swift */,
 				713E5BE926E159AA0059D1BB /* Assets.xcassets */,
 				713E5BEE26E159AA0059D1BB /* Info.plist */,
 				713E5BEB26E159AA0059D1BB /* Preview Content */,
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				713E5BE826E159A80059D1BB /* ContentView.swift in Sources */,
+				713E5BF926E16EC50059D1BB /* CompassLogic.swift in Sources */,
+				713E5BE826E159A80059D1BB /* CompassView.swift in Sources */,
+				713E5BF726E15D150059D1BB /* CompassMarkerView.swift in Sources */,
 				713E5BE626E159A80059D1BB /* CompassApp.swift in Sources */,
+				713E5BF526E15B9E0059D1BB /* Marker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
