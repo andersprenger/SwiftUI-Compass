@@ -25,7 +25,7 @@ class CompassLogic: ObservableObject {
             motionManager.startDeviceMotionUpdates(using: .xMagneticNorthZVertical, to: .main) { data, error in
                 guard let validData = data else { fatalError("compass not avaliable") }
                 
-                self.north = validData.heading
+                self.north = -validData.heading
                 print("N:", validData.heading)
             }
         }
